@@ -1,0 +1,16 @@
+2022/01/19
+ActionView::Template::Error (source sequence is illegal/malformed utf-8):
+     6:     <title>Iris</title>
+     7:     <%= csrf_meta_tags %>
+     8:     <%= csp_meta_tag %>
+     9:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:     <link rel="stylesheet" type="text/css" href="app/assets/stylesheets/loading.css">
+    12:   </head>
+  
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___3864199871309351207_70265143077580'
+^C- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2022-01-19 15:52:34 +0900 ===
+
+
+answer 

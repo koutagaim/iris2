@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html>
+  <head class="top-page">
+    <title>Iris</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" type="text/css" href="app/assets/stylesheets/loading.css">
+  </head>
+ <body>
+   <%= yield %>
+ </body>
+</html>
